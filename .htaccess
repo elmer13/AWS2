@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(.*)/$ /$1 [L]
+RewriteRule ^([a-z0-9_-]+)$ user/perfil.php?user=$1 [NC,L]

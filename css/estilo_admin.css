@@ -1,0 +1,160 @@
+@import url('fuentes.css');
+
+body{
+	background-color: #f2f2f2;
+}
+
+header {
+	width:100%;
+	height:70px;
+	background-color:#578075;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+header h2{
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+	padding: 20px;
+
+}
+
+nav{
+	height:35px;
+	background-color:#6fb0ad;
+	margin-top:-13px;
+	margin-bottom:3px;
+	font-family:sourcesans;
+}
+nav li{
+    display: block;
+    float: left;
+    text-align: center;
+	width:150px;
+	padding-top:5px;
+
+}
+nav li a{
+	background-color:#529390;
+	color:#fff;
+	height:25px;
+	text-decoration:none;
+	padding-top:2px;
+	margin-left:1px;
+	display:block;
+	transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+
+}
+nav li a:hover{
+               	background-color:#356967;
+}
+#contenido{
+width:100%;
+	background-color: #f2f2f2;
+margin-left:15px;
+margin-right:15px;
+padding-top:10px;
+padding-bottom:10px;
+height:430px;
+}
+
+#contenido form{
+width:50%;
+margin:0 auto;
+	background-color: #f2f2f2;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+		.tabla_buscar{
+		   width: 100%;
+		   border: 1px solid;
+		   font-family:sourcesans;
+		}
+		.tabla_buscar th {
+		   background: #eee;
+		   width:25%;
+		}
+		.tabla_buscar td #btn1 {
+		   background: #2d2d2d;
+		   border:1px solid #000;
+		   color:#fff;
+		}
+		.tabla_buscar td #btn1:hover {
+		   background: #999;
+		}
+
+		
+		
+		.tabla_general{
+		   width: 100%;
+		   border: 1px solid;
+		   font-family:sourcesans;
+		}
+		.tabla_general th, td {
+		   width: 25%;
+		   text-align: left;
+		   vertical-align: top;
+		   border: 1px solid #000;
+		   border-collapse: collapse;
+		   padding: 0.3em;
+		   caption-side: bottom;
+		}
+		.tabla_general th {
+		   background: #666;
+		}
+		.tabla_general td {
+		   background: #ccc;
+		}
+		.tabla_general td #btn1 {
+		   background: #2d2d2d;
+		   border:1px solid #000;
+		   color:#fff;
+		}
+		.tabla_general td #btn1:hover {
+		   background: #999;
+		}
+		.tabla_general tr .tfoot{
+			background:#999;
+		}
+		.tabla_general h3{
+			font-size:9px;
+			display:inline;
+		}
+		
+		
+		.tabla_usuarios{
+		   width: 70%;
+		   border: 1px solid #000;
+		   border-collapse:collapse;
+		   margin:0;
+		   margin-top:-10px;
+		   padding:0;
+		}
+		.tabla_usuarios caption{
+		text-align:left;
+		font-size:110%;
+		text-transform:uppercase;
+		letter-spacing:-1px;
+		
+		}
+		td,th{
+		padding:.2em .5em;
+		vertical-align:top;
+		font-weight:normal;
+		}
+		.tabla_usuarios thead th{
+		text-transform:uppercase;
+		background:#666;
+		color:#fff;
+		}
+		.tabla_usuarios tbody th{
+		background-color:#999;
+		}
+		.tabla_usuarios tbody td{
+		background-color:#ccc;
+		}
